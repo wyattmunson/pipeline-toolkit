@@ -2,4 +2,5 @@ FROM alpine:latest
 
 COPY . .
 
-ENTRYPOINT ["sh", "./main.sh"]
+# ENTRYPOINT ["sh", "./main.sh"]
+CMD ["sh", "/main.sh"]
